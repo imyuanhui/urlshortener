@@ -2,12 +2,8 @@
 
 <html>
   <head>
-    <title>URL Shortener Microservice | freeCodeCamp.org</title>
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://cdn.freecodecamp.org/universal/favicons/favicon-16x16.png"
-    />
+    <title>URL Shortener Microservice</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <link href="/public/style.css" rel="stylesheet" type="text/css" />
   </head>
 
@@ -19,14 +15,26 @@
           <fieldset>
             <legend>URL Shortener</legend>
             <label for="url_input">URL:</label>
-            <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
+            <input id="url_input" type="text" name="url" placeholder="https://www.google.com/" />
             <input type="submit" value="POST URL" />
           </fieldset>
         </form>
       </section>
+      <div class="container">
+        <h2>Example Usage:</h2>
+        <p>
+          <a href="api/shorturl/1">https://urlshortener-4lu3.onrender.com/api/shorturl/1</a>
+        </p>
+
+        <h3>Will Redirect to:</h3>
+        <p>
+          https://imyuanhui.github.io
+        </p>
+      </div>
     </main>
     <footer>
-      <p>By <a href="https://www.freecodecamp.org/">freeCodeCamp</a></p>
+      <p>By <a href="https://imyuanhui.github.io/">Yuanhui</a></p>
     </footer>
+    <script src="/public/script.js"></script>
   </body>
 </html>

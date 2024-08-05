@@ -1,10 +1,15 @@
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  color: #222;
-  background-color: #fff;
-  text-align: center;
-  line-height: 1.4em;
+  font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #FaFaFa;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
 }
 
 main {
@@ -12,14 +17,12 @@ main {
   margin-top: 40px;
 }
 
-h3 {
-  margin-top: 30px;
+fieldset {
+  text-align: center;
 }
 
-
-
-.user-stories li {
-  margin-bottom: 1em;
+h3 {
+  margin-top: 30px;
 }
 
 a {
@@ -43,4 +46,11 @@ input {
 input[type='text'] {
   width: 220px;
   text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
